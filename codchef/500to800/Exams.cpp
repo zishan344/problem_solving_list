@@ -8,9 +8,11 @@ int main()
   cin >> t;
   while (t--)
   {
-    int a;
-    cin >> a;
-    if ((a + 3) <= 10)
+    int x, y, z;
+    cin >> x >> y >> z;
+    float total_student = x * y;
+
+    if (z > total_student / 2)
     {
       cout << "YES" << endl;
     }
@@ -19,4 +21,4 @@ int main()
       cout << "NO" << endl;
     }
   }
-}
+};
